@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Demostración de madera balsa</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">Deep Computer Vision · demostración local</p>
+    <h1>Segmentación panóptica de madera balsa</h1>
+    <p class="intro">Piezas individuales, superficie de trabajo y medidas del contorno visible.</p>
+  </header>
+
+  <section class="controls" aria-label="Fuente de la demostración">
+    <button id="photos" class="primary" type="button">Prueba con fotografías</button>
+    <label class="camera-choice" for="camera-index">Cámara
+      <select id="camera-index" aria-label="Índice de cámara">
+        <option value="0">0</option><option value="1">1</option><option value="2">2</option>
+        <option value="3">3</option><option value="4">4</option><option value="5">5</option>
+      </select>
+    </label>
+    <button id="camera" type="button">Usar cámara</button>
+    <button id="stop" class="quiet" type="button" disabled>Detener</button>
+    <span id="status" role="status">Sin fuente activa</span>
+  </section>
+  <p id="error" role="alert" hidden></p>
+
+  <section class="demonstration" aria-label="Resultado de la segmentación">
+    <figure class="stage">
+      <div class="image-area">
+        <div id="empty"><strong id="empty-title">Elige una fuente para comenzar</strong><span id="empty-note">Las fotografías permiten revisar el modelo sin encender la cámara.</span></div>
+        <img id="frame" alt="Resultado de la segmentación" hidden>
+      </div>
+      <figcaption>
+        <div><strong id="source">Sin fuente activa</strong><span id="frame-id"></span></div>
+        <p id="source-note">La cámara permanece apagada hasta pulsar «Usar cámara».</p>
+      </figcaption>
+    </figure>
+
+    <aside class="measurements">
+      <div class="section-heading"><h2>Piezas detectadas</h2><span id="piece-count">0</span></div>
+      <div class="legend"><span><i class="mesa"></i>Mesa y entorno</span><span><i class="piece"></i>Una identidad por pieza</span></div>
+      <table class="sizes">
+        <thead><tr><th>Pieza</th><th>Largo</th><th>Ancho</th></tr></thead>
+        <tbody id="measurements"><tr><td colspan="3" class="empty-row">Sin piezas para mostrar.</td></tr></tbody>
+      </table>
+      <p class="note">Medidas en píxeles de la imagen original. Una pieza tapada o cortada por el borde solo permite medir su parte visible.</p>
+      <dl class="timing">
+        <div><dt>Inferencia</dt><dd id="inference">—</dd></div>
+        <div><dt>Procesamiento de imagen</dt><dd id="processing">—</dd></div>
+        <div><dt>Resolución</dt><dd id="resolution">—</dd></div>
+      </dl>
+      <p id="timing-note" class="note">Los FPS muestran el ritmo de procesamiento, no una velocidad de captura medida. Los IDs cambian entre fotogramas.</p>
+    </aside>
+  </section>
+
+  <section class="results" aria-labelledby="results-title">
+    <h2 id="results-title">Resultados del conjunto de prueba</h2>
+    <p>Comparación sobre las mismas imágenes y etiquetas. La variante semántica no produce identidades individuales.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Variante</th><th>IoU balsa</th><th>F1 balsa</th><th>Precisión balsa</th><th>mAP de máscaras</th><th>Negativas con FP</th></tr></thead>
+      <tbody id="metrics"><tr><td colspan="5">Cargando resultados…</td></tr></tbody>
+    </table></div>
+    <p id="metrics-note" class="note"></p>
+  </section>
+  <footer>Demostración local · Los contornos superpuestos corresponden a predicciones del modelo.</footer>
+</main>
+</body>
+</html>

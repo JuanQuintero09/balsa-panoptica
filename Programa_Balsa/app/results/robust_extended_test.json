@@ -1,0 +1,4640 @@
+{
+  "status": "final",
+  "definitive": true,
+  "allow_unreviewed": false,
+  "manifest_sha256": "c1d741622a4cc248e9dea90b5f3a33562b67e5b60e684fc40097659dfda9240b",
+  "test_fingerprint": "cdecaf424ee99b28f2feef358d7ba2a237e6d82c04ddc59bb9e67c4508030e36",
+  "protocol": {
+    "version": "balsa-eval-v1",
+    "split": "test",
+    "labels": {
+      "0": "mesa",
+      "1": "balsa"
+    },
+    "gt_ignore_label": 255,
+    "semantic_aggregation": "global_confusion_2classes_with_unassigned_as_false_negatives",
+    "instance_ap": "COCOeval_segm_balsa_iou_0.50:0.05:0.95_maxDets100",
+    "max_size": 384,
+    "threshold": 0.5,
+    "threshold_note": "Filtra segmentos panópticos; no se aplica al argmax del baseline semántico"
+  },
+  "created_utc": "2026-11-17T20:55:36.567794+00:00",
+  "checkpoint": "C:\\Users\\camil\\Documents\\Codex\\2026-11-12\\ve-x20\\outputs\\balsa_panoptica\\checkpoints\\balsa_robusto_final",
+  "checkpoint_task": "panoptic",
+  "checkpoint_training_status": "trained",
+  "manifest": "C:\\Users\\camil\\Documents\\Codex\\2026-11-12\\ve-x20\\outputs\\balsa_panoptica\\data\\manifest_robusto.json",
+  "test_records": [
+    {
+      "id": "balsa_0023",
+      "image_sha256": "04ca4751667b3e33d4ffebe30f11218623c3feea8d41fab152fe73596477b58f",
+      "annotation_sha256": "3d4c6d5b19ce73337d9c7672daf5f12960a0c17b66ec9bbe1f632f3439695f2a"
+    },
+    {
+      "id": "balsa_0024",
+      "image_sha256": "bb521448a8c82e4a24828c928da9bcf2c7b92f09786e6a0382f36a2836435b0b",
+      "annotation_sha256": "237600a7293c06879f38fa494c85c3e0c5e5cbb40975efa81f2ef1bef74f5bba"
+    },
+    {
+      "id": "balsa_0030",
+      "image_sha256": "feb5435f556a40a7de9fa107bf90abccfd4c4b63c0ef1b67e01803c955e3f121",
+      "annotation_sha256": "dd888e423c0bc8162db0d3e8d5270e7354c7bb5195f73233b849d44f4d6c2ad8"
+    },
+    {
+      "id": "balsa_0033",
+      "image_sha256": "45505617626e89dc77213c5ed717a324bb23e3a830d04d62e369bc8df2d2702d",
+      "annotation_sha256": "3e297dddd8141ed66728ac18c94ae4bc266e1b11402fda3b1607276db2d4a5c5"
+    },
+    {
+      "id": "balsa_0036",
+      "image_sha256": "64f68e9d8d0d26d2f7673bc47e326e7145f072c7c512792793785755a6c343d9",
+      "annotation_sha256": "b23202b44f04d43d4ffce1a8de11d57f52bdbf086d08b363c063c485f2398cfe"
+    },
+    {
+      "id": "balsa_0041",
+      "image_sha256": "28cbb3c192cfedde11432a513575ff59d9526c7e56f5bcb573d6ceb11c826b82",
+      "annotation_sha256": "95779724637baaa801ed55a3d0d52b55f350c06b307814858d4382eef606ab4b"
+    },
+    {
+      "id": "balsa_0042",
+      "image_sha256": "e2ba45e98a578bf808661bcd79a6fd8b93b216a18136bc9dd3defcd609bc8f51",
+      "annotation_sha256": "21c5ba8af5b8313038e85748d05125cdc54adb6b70f5408ec16ab0d345007ef4"
+    },
+    {
+      "id": "balsa_0048",
+      "image_sha256": "7e3876ea674c38a43044fd4e1a71a253bcac2d24e685d360ac1bfa7987853050",
+      "annotation_sha256": "f284eb2877d75aafd492083cbbfe6bbed971d2cfe7cab35acf035a22d7eb98ff"
+    },
+    {
+      "id": "balsa_0053",
+      "image_sha256": "9e75b98b98f8017bac917987924ef1940369d51d9f3e2d2f7cc12013c867e9d2",
+      "annotation_sha256": "11c6de39719d7ccf44c6821b8808d1533ac8b8fcaea05017a97c5bd164057dab"
+    },
+    {
+      "id": "balsa_0054",
+      "image_sha256": "7636262a3a463260e1af95010a0d3428d79c5783b571c000b5c7abb0c81dfddd",
+      "annotation_sha256": "2b15933e4ffa567743ac7d2234924b64e77c5187c762bf9aade9ed7235d04e74"
+    },
+    {
+      "id": "balsa_0058",
+      "image_sha256": "2badfd109bcda89d0955a4b0fbb1e57844868904c7c2add4e86e04d72f261043",
+      "annotation_sha256": "726e7363f2a55a6aa202a324f21e9f334739803376a1610bec3745765f9d5e2f"
+    },
+    {
+      "id": "balsa_0069",
+      "image_sha256": "1a5d10a202624632ece3e74aa2e7395340d6b8f67c3254f64ee6c974fd721a93",
+      "annotation_sha256": "c7bb3fdf513e23fe24fea551fbaf3354bf57dacbec316d6182c1f41d71e54839"
+    },
+    {
+      "id": "balsa_0072",
+      "image_sha256": "b1340d677b56459e0e2efedd1ac047fd6f22d087cca7bfda3d5dd5d496dc6c01",
+      "annotation_sha256": "bc2ca1f34759c8a0fd5eeac897bebd7c2dcc6d827dfeb3ee540d3e693f23b831"
+    },
+    {
+      "id": "balsa_0073",
+      "image_sha256": "4ea8319d62bd40028a6126fc7c00231eb6c30ee3a1872efe8619da23aef5765d",
+      "annotation_sha256": "7dcc3feeec4326fb17c2cc134211478282ed3029421682dc0614f3e46e9517f2"
+    },
+    {
+      "id": "balsa_0080",
+      "image_sha256": "732eaa58839a1da465a8c89d8737abf883f0e4c1ce58292c136f580e3b3222b2",
+      "annotation_sha256": "3f7d9ae0c17f6dfe7aa1c318c475e275c78d1bb9c0beae7f028a96c4da3419e4"
+    },
+    {
+      "id": "balsa_0084",
+      "image_sha256": "7ac94dab4f6ef44e9f3aaadffa4dd1db2f06d8283be65f40fab817bbdcebd608",
+      "annotation_sha256": "d9d0c8f04d44750cd56aa866a8ea5d55a9090ec8b3dce6cebf512f1fda1cf727"
+    },
+    {
+      "id": "balsa_0092",
+      "image_sha256": "8207d35c6bd357249b4e972246d556f5e63e811e5cbfcfa456f3adec720e6593",
+      "annotation_sha256": "cb5219e0ffbc83aebc8c2b31400fe5cbd44d5b14f851f1f7cfdce475b784e26e"
+    },
+    {
+      "id": "balsa_0095",
+      "image_sha256": "3af56d72df81719faedfdd3588033c2afdd55b2ea7ca7aa73a0e224d92a14eea",
+      "annotation_sha256": "aa0138672b254067451905e336c5b7fa721c0eef2cb150a2616ae3c132a74dbc"
+    },
+    {
+      "id": "balsa_0108",
+      "image_sha256": "b425eef9b73f86b855f805a64bba2be9d6a161040c420e7711da129a6dd009c7",
+      "annotation_sha256": "4f459c37682cf6fc03f429635ab445206dcc68dbff724716a4f6322d04bae358"
+    },
+    {
+      "id": "balsa_0109",
+      "image_sha256": "05f19536f5f3ec482941f15dc7a37724456cdaba47324f4d6984da11391a3332",
+      "annotation_sha256": "a1fd8b3652fbad4d5561e73b12ccb53b72de750b84b0ae567b7babab77f02d60"
+    },
+    {
+      "id": "balsa_0113",
+      "image_sha256": "14f6fa706e1de7c57a508cfeb2371254edd90acfd945b168f0876bd9d79e2fc6",
+      "annotation_sha256": "357b350d559b4ae271a17b2daccb8ec1d02823ae8dc876ab832908a92418eb6a"
+    },
+    {
+      "id": "balsa_0126",
+      "image_sha256": "395e876bf2e744b3335d3b77e4b3a77745d5840b98ffc7cb437e376763aecc2b",
+      "annotation_sha256": "e6380ccecaa21795417f03569c0596c806bef534d827b198eb410dc4f618b381"
+    },
+    {
+      "id": "balsa_0127",
+      "image_sha256": "444e007752bec53cc8f35c58f105df9907e99adba62089c739ee513b9cbb7960",
+      "annotation_sha256": "c9f084764e51f49e566f715871c370d5e5dc0682d411b3ef5ed87e5a41dbfde7"
+    },
+    {
+      "id": "balsa_0128",
+      "image_sha256": "5eb19f678d1c4ea48a6dfc22b3da4adf007e2b6fa07f0efed12a8dc77326f4df",
+      "annotation_sha256": "6c2f0f8938cc01b1e83f5793492ae1b2478be1a4169cde72562009c69e7caffc"
+    },
+    {
+      "id": "balsa_0145",
+      "image_sha256": "8776c3950c01b1efe5a62e217ee95f765ee1341ecddf471faef1ab31d0b624ca",
+      "annotation_sha256": "9762ce84945c8b3146a96bb6d79b23e8e27887663b7abe7811ee6b6189865e00"
+    },
+    {
+      "id": "balsa_0162",
+      "image_sha256": "7bd5d293fd4699113719ae28e159bd2ce3932e15973dc6243d715a9eb6d51313",
+      "annotation_sha256": "fa24f367a6529da959f88128eed3cb988f1a04a62fa11427f9aae58d91c69b31"
+    },
+    {
+      "id": "balsa_0163",
+      "image_sha256": "17485bb0dd8891fd880bbddcd31a0a2d4ca874e882f5ba756773e71ce90f8e6b",
+      "annotation_sha256": "c382e8a44a4405524f2253e528f1fcf7690033a6712adf73b8f97290b95a8cd9"
+    },
+    {
+      "id": "balsa_0169",
+      "image_sha256": "819cf64320a1edc127176aa8d5244d8d4ed2079bd4027f75cc763e488ee7fafb",
+      "annotation_sha256": "ea2fea1b39883d060fe0e4123aef9f09ae57ad820dc62e553c0e1ccd316e33ff"
+    },
+    {
+      "id": "balsa_0171",
+      "image_sha256": "72ee3625c462f0b142c06855b59b49a849418ff01783a235d74c065a63975a05",
+      "annotation_sha256": "5b6c1ea3fcbbc3309a41b9ff61f9af73e4f762bb05a60a438984e14170067b6b"
+    },
+    {
+      "id": "balsa_0173",
+      "image_sha256": "e4107693e50975be17101240f752bb7a767a8ff56627ec611120474455645615",
+      "annotation_sha256": "ce05eac44948fb8160853bfd41d04e65f292bf2babdf4b56b99ad41cda85196c"
+    },
+    {
+      "id": "balsa_0174",
+      "image_sha256": "9f2627d35f02ea7f3dc1ca0782f1c2c4f7ea81399466f075553ee079eba9936a",
+      "annotation_sha256": "325ef0195ac0fc0c648bc4687b37fa600e474ec8f9d0fd0a7657ab97c5b48e84"
+    },
+    {
+      "id": "balsa_0178",
+      "image_sha256": "de08b5705bdc90add0a258a85d4a415b584ce0e33016a3c546e4bbd16d13b195",
+      "annotation_sha256": "9dd0aef0065a868219903c18f1111d2208f8e36ffb634bd864a51945b3880255"
+    },
+    {
+      "id": "balsa_0182",
+      "image_sha256": "2f6bc25ed0a3c617f4d3b065622d870211cff7829a2dc8135f53d7f957af88e9",
+      "annotation_sha256": "9b9606faa24b526f1278a11205adbbcf4aa21100f885ef8a505ea32c57b41542"
+    },
+    {
+      "id": "balsa_0183",
+      "image_sha256": "bf356fcf9668f38c57385c63f51e085397a5fbf05ac0e6176831a87821a39ffc",
+      "annotation_sha256": "678b5d80e41f1d0cbf3e69bf050b571cfe75e4d52efad9952d368b4eebf47b9c"
+    },
+    {
+      "id": "balsa_0185",
+      "image_sha256": "311a2d19e176ba0945314334d68ad45bff5f311633f5603972cc0cfbb3636cbd",
+      "annotation_sha256": "515467770b530771c08eb76ef78227eeae83aaaab6036eaf4249d26f930c915c"
+    },
+    {
+      "id": "balsa_0186",
+      "image_sha256": "ebb881b76068aaa0ebdcda88b3077d08fadb17f53d33332f30046598ee02d29b",
+      "annotation_sha256": "af791d181b518759900811d20e90408291dd3c44e3b177674ae426b15439e3c9"
+    },
+    {
+      "id": "balsa_0210",
+      "image_sha256": "c8c09851df237dcca92ee2b94673444382c6717affb21be334cfb02ef172ab9c",
+      "annotation_sha256": "5591caa0e50cf4053b6a71c5e4cab3596df02d5b921b0feda1ce625da05ed914"
+    },
+    {
+      "id": "balsa_0212",
+      "image_sha256": "fa9ad3f5620ed238c587351ab2f6f9a71c9d8c0ea226d78f141e5808ce8b05c6",
+      "annotation_sha256": "0de5c23d0ea942aa948e46778a2d14fb5eabdc9498ecb5f660537e3fc30e3502"
+    },
+    {
+      "id": "balsa_0224",
+      "image_sha256": "ec6dc109aedf2210a9ba25e50c369383d17e078dd2d3bd56d588994e6c81e385",
+      "annotation_sha256": "d3c307d55808f310a424e86dee8f0ceb8316617c8f11bc0b8737ae930d66dafc"
+    },
+    {
+      "id": "balsa_0228",
+      "image_sha256": "082ceee8cca5c920f6b4dbc1012b47e39a447ef654ec14d7a5a26b94720db220",
+      "annotation_sha256": "f68246f5a315039903414ef8290488a0eaa7a372bc0cf7f063e3d5b4ed4f2829"
+    },
+    {
+      "id": "coco128_000000000034",
+      "image_sha256": "0e67e637241ac2fbf132aa2b6cc9775b474b520e1c9a99dbef377063a5a48b85",
+      "annotation_sha256": "54be189008ee627abda1e780a595527eb7ca88a79fb41aac087fe0b528794311"
+    },
+    {
+      "id": "coco128_000000000064",
+      "image_sha256": "406f84619f5197d416f60566d41ad4d58f1d10b0a182652bbda266eedbc3f1ab",
+      "annotation_sha256": "92dc83b44c6cfd72903b2f8bf08d8b1f17d99e150b8cb735f5e1b08ea6ca037a"
+    },
+    {
+      "id": "coco128_000000000071",
+      "image_sha256": "5393bf6575c435daa599c1272d9e61e99c099994ae4d3755311684663fed0917",
+      "annotation_sha256": "97b4ffa01e35b15ef7288a1b8df5b3df96899ec559abaa93ff1557b7b6c1f0ee"
+    },
+    {
+      "id": "coco128_000000000073",
+      "image_sha256": "4a17dd87b487b4b6432d3aa60f6026a5349c8708834a3cae141ff16e0539a32c",
+      "annotation_sha256": "898d072b62e31eb27ab08d6a27325430e946ea458aecc4fe414ddaff2223bb9e"
+    },
+    {
+      "id": "coco128_000000000110",
+      "image_sha256": "39d967c7856965853e90b9283db4a6895a034eb17fe0c84581d17af4a59edcf2",
+      "annotation_sha256": "31cccfed1627b638f49694ff72c461e91002fc2d987ec9b1e09bbb91bf05fb8f"
+    },
+    {
+      "id": "coco128_000000000127",
+      "image_sha256": "0ce2f02f39d5d49260d91762bc9a659f8f9d516d8e416c8120306330bfd58023",
+      "annotation_sha256": "735870ef9654710789a91f5361d862810fdc010f5fd98cda215debceb5a70852"
+    },
+    {
+      "id": "coco128_000000000133",
+      "image_sha256": "d8d2ea5e94c83ba74bef9dc52d58e0526e08d03355381683fb953db71ec529e6",
+      "annotation_sha256": "03be1844a7dce0b993da06bb6ba648d2236b40b79863bd5caf98dbea41a45cb2"
+    },
+    {
+      "id": "coco128_000000000192",
+      "image_sha256": "93a9d9132aefccbb1f1bfb51198b5b427d1cf4a977ef259c9d0507ee5b0df732",
+      "annotation_sha256": "7e035e6efdeb84bfa467588d23ef0191f683cb4554b3c9680b81cc5dfd0017c0"
+    },
+    {
+      "id": "coco128_000000000321",
+      "image_sha256": "60f0acad099ad5cf55f44968cea66e125e0beb7eb20a1d78888ee9db34e28cd8",
+      "annotation_sha256": "3e43cc7bcfe90e74ea9a0ad78436cf0bf9366424d9855fc336be25ec84780643"
+    },
+    {
+      "id": "coco128_000000000357",
+      "image_sha256": "939b5473ea4787a01c2293a3e62979442eea5c9b3dcaab8803c07a5b6d47e087",
+      "annotation_sha256": "4be745c4dad963f98c904f6ffb9ca1bf10bdf9d99c1d69fc9cea78bb21e00089"
+    },
+    {
+      "id": "coco128_000000000359",
+      "image_sha256": "8da8a8320518a8adadbbd79615e066fd60b31c6025919665264ff9d0f746a5dd",
+      "annotation_sha256": "9a2e968dda197505250bac1b2e2adf7d482ad97f60b63a51394ae16f29279a36"
+    },
+    {
+      "id": "coco128_000000000370",
+      "image_sha256": "0d3719ec6f6f54229f498f7b01b113a864cd1eeccac196086741d98e23ae2455",
+      "annotation_sha256": "a48fa6300d064314ab373f8c424599306e3286dc0cdabbb97021c3684272d9ba"
+    },
+    {
+      "id": "coco128_000000000370_head",
+      "image_sha256": "1bf3cf30123482d31700c17455571c81d603c83cadc0212d8012949d4f6d6e1b",
+      "annotation_sha256": "2048c7f990212a122cc0d3ca790ea2d7e2cd138f65d89bb74e68e1e786440f3d"
+    },
+    {
+      "id": "coco128_000000000384",
+      "image_sha256": "dfbae064fadcaa79bd319410903bc92052349472115e2d515e0ecf3c944d1048",
+      "annotation_sha256": "1a9ecf64d23884ecd6fe5e9e4c4b20a760c0e9a2c3af82ae692302ff1a4912b0"
+    },
+    {
+      "id": "coco128_000000000389",
+      "image_sha256": "f6d313afba47fe0747d1d78cd342f420eb305de8faadb5cb164de428522b40d6",
+      "annotation_sha256": "dc9f8b1f303cb9be98ddd9a93185689384d19509c9b2dfc11ad6a27f1ead501f"
+    },
+    {
+      "id": "coco128_000000000389_head",
+      "image_sha256": "d4d49823f0daf5e7ca13def7fc05866026ef078a5bca50ca37f154e8c17c8a3e",
+      "annotation_sha256": "19ab957b12512ef41a3ed4d87ffd637e2f38aa88006536eededb7cb6257e1b78"
+    },
+    {
+      "id": "coco128_000000000415",
+      "image_sha256": "cc75d90eac7419395e81ddd7e33c81dbec387892e086b40cbf12dc3fe09f8bb1",
+      "annotation_sha256": "e00b1c6a35346e5a698913105102392c872ac0293c9694fa722d7363ac3240a9"
+    },
+    {
+      "id": "coco128_000000000419",
+      "image_sha256": "4b4e5c24a3aafa6d591ab385cc3756f90a804212a8e060ba374d1658b69b308e",
+      "annotation_sha256": "24e23a0a9302f04289ee6d944c7f62a34ec86249e8223ed45055b6743f6fc1fa"
+    },
+    {
+      "id": "coco128_000000000431",
+      "image_sha256": "1ecf0c6810ad0972f867b0f53f94c03d3398fc6958af4cac60dde350533f7b8c",
+      "annotation_sha256": "32f436a6bb8ed7b0df61ef535e67526b75d850bc74ff42ce5c73ce50eb2f7a03"
+    },
+    {
+      "id": "coco128_000000000459",
+      "image_sha256": "9dac859e6bc3eaf091e94593a005735f9c3c3e71c1c40a708b4c24da99b2e06c",
+      "annotation_sha256": "a8bac4c051d305925e9c6f52fba3c4246ec74054615406d0dbae1f0ec8d837ce"
+    },
+    {
+      "id": "coco128_000000000459_head",
+      "image_sha256": "7bf8e07b0d22786d9481466ab60a1c43e61574eb35758f0e914f61f628232949",
+      "annotation_sha256": "19b092232f4b16889bccd18ee9bb2eddceac754b8cf38fc2b4ad13ffac76c923"
+    },
+    {
+      "id": "coco128_000000000486",
+      "image_sha256": "cb30e9ff9b1182fc9aa328f601f0ca640236eea29ec695b57edc11a572dfbfed",
+      "annotation_sha256": "82fa49d33f452fcd89be4a2c93ca79728f7d24f729778db9813eb842c4b1b239"
+    },
+    {
+      "id": "coco128_000000000508",
+      "image_sha256": "0fc73f660a10ed91c52f76a2b34b5fa252bf70ff84f7b2a35374726388528ca2",
+      "annotation_sha256": "296595d6614710d4c5d3e94f2b9e87fb798aa2bc093c7171fac045358468505a"
+    },
+    {
+      "id": "coco128_000000000520",
+      "image_sha256": "2b971302ba56e1049294f9e0b198f37316148c8257b8d7344002aed624c45844",
+      "annotation_sha256": "50d131508260923a5f7e8003d602524d005da69965d2c88bcc6701e4d5beda6b"
+    },
+    {
+      "id": "coco128_000000000569",
+      "image_sha256": "07655c58e2286ec5e8b74eee71a03841ccf732cbc502d6c380d894a14041ad5f",
+      "annotation_sha256": "6a7732d2173c18ce9ffe97c37530c1d0ce33e10fe040562792b54a0a6c6ec336"
+    },
+    {
+      "id": "coco128_000000000612",
+      "image_sha256": "9ee977eaa2947ffa1508dfc8b6e3c179a9945ee3a55529f91ede04689f00e667",
+      "annotation_sha256": "234af390c2f86384d008015d517f16e3d85c3a79d674e42c1c7d28dbb608b892"
+    },
+    {
+      "id": "coco128_000000000650",
+      "image_sha256": "9bb45795336c1d05189fe51a77e04270cd1da8929d62060926798f3dd2d25204",
+      "annotation_sha256": "11f95093b2b29e83c074b0d42e263419e9e9ba040454ba69547aef7f4f08f82e"
+    }
+  ],
+  "evaluation_split": "test",
+  "semantic": {
+    "mean_iou": 0.9831061914396557,
+    "balsa_iou": 0.9696735506948072,
+    "balsa_f1": 0.9846033119069426,
+    "balsa_precision": 0.9918911163312156,
+    "balsa_recall": 0.9774218189594696,
+    "pixel_accuracy": 0.9946624921880269,
+    "per_class": {
+      "mesa": {
+        "iou": 0.9965388321845042,
+        "precision": 0.9982838554943013,
+        "recall": 0.9982489770742946,
+        "f1": 0.9982664159796438,
+        "tp": 36486064,
+        "fp": 62723,
+        "fn": 64000,
+        "gt_pixels": 36550064
+      },
+      "balsa": {
+        "iou": 0.9696735506948072,
+        "precision": 0.9918911163312156,
+        "recall": 0.9774218189594696,
+        "f1": 0.9846033119069426,
+        "tp": 7431645,
+        "fp": 60755,
+        "fn": 171669,
+        "gt_pixels": 7603314
+      }
+    },
+    "confusion_matrix": [
+      [
+        36486064,
+        60755
+      ],
+      [
+        62723,
+        7431645
+      ]
+    ],
+    "confusion_rows": [
+      "mesa",
+      "balsa"
+    ],
+    "confusion_columns": [
+      "mesa",
+      "balsa"
+    ],
+    "unassigned_predictions_by_true_class": [
+      3245,
+      108946
+    ],
+    "valid_gt_pixels": 44153378,
+    "ignored_gt_pixels": 0,
+    "image_count": 67,
+    "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+  },
+  "instances": {
+    "map": 0.8504590408472138,
+    "map50": 0.9276127612761277,
+    "map75": 0.8567502416373259,
+    "mar100": 0.8768421052631579,
+    "ground_truth_instances": 95,
+    "predicted_instances": 90,
+    "image_count": 67,
+    "definition": "COCOeval segm: AP de máscaras balsa, IoU=.50:.05:.95, 101 puntos de recall, máximo 100 detecciones/imagen",
+    "iou_thresholds": [
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.8999999999999999,
+      0.95
+    ],
+    "max_detections_per_image": 100
+  },
+  "timing": {
+    "device": "cuda",
+    "mean_seconds": 0.11073445522142991,
+    "median_seconds": 0.09607359999790788,
+    "images_per_second": 9.030612901832155,
+    "definition": "Tiempos de predict_image, incluye primera inferencia; no mide cámara ni rendimiento de entrenamiento"
+  },
+  "per_image": [
+    {
+      "id": "balsa_0023",
+      "ground_truth_instances": 1,
+      "seconds": 0.5160348999779671,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9946226478497944,
+        "balsa_iou": 0.9913168668736222,
+        "balsa_f1": 0.9956395020446894,
+        "balsa_precision": 0.9967767837957047,
+        "balsa_recall": 0.9945048125204518,
+        "pixel_accuracy": 0.9983246527777778,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9979284288259666,
+            "precision": 0.9986921926317005,
+            "recall": 0.9992342353235154,
+            "f1": 0.9989631404488044,
+            "tp": 743784,
+            "fp": 974,
+            "fn": 570,
+            "gt_pixels": 744354
+          },
+          "balsa": {
+            "iou": 0.9913168668736222,
+            "precision": 0.9967767837957047,
+            "recall": 0.9945048125204518,
+            "f1": 0.9956395020446894,
+            "tp": 176272,
+            "fp": 570,
+            "fn": 974,
+            "gt_pixels": 177246
+          }
+        },
+        "confusion_matrix": [
+          [
+            743784,
+            570
+          ],
+          [
+            974,
+            176272
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0024",
+      "ground_truth_instances": 1,
+      "seconds": 0.11468869994860142,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9946767396933223,
+        "balsa_iou": 0.9914140028993133,
+        "balsa_f1": 0.9956884921527185,
+        "balsa_precision": 0.9963661932217691,
+        "balsa_recall": 0.9950117123645494,
+        "pixel_accuracy": 0.9983355034722222,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9979394764873313,
+            "precision": 0.9988061708063053,
+            "recall": 0.9991312335004969,
+            "f1": 0.998968675709691,
+            "tp": 742937,
+            "fp": 888,
+            "fn": 646,
+            "gt_pixels": 743583
+          },
+          "balsa": {
+            "iou": 0.9914140028993133,
+            "precision": 0.9963661932217691,
+            "recall": 0.9950117123645494,
+            "f1": 0.9956884921527185,
+            "tp": 177129,
+            "fp": 646,
+            "fn": 888,
+            "gt_pixels": 178017
+          }
+        },
+        "confusion_matrix": [
+          [
+            742937,
+            646
+          ],
+          [
+            888,
+            177129
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0030",
+      "ground_truth_instances": 1,
+      "seconds": 0.11260409996611997,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9943113176431231,
+        "balsa_iou": 0.9907246172878593,
+        "balsa_f1": 0.9953407002497526,
+        "balsa_precision": 0.995786483747024,
+        "balsa_recall": 0.9948953157014673,
+        "pixel_accuracy": 0.9982834201388889,
+        "per_class": {
+          "mesa": {
+            "iou": 0.997898017998387,
+            "precision": 0.9988469334014267,
+            "recall": 0.9990488935239625,
+            "f1": 0.9989479032549825,
+            "tp": 751041,
+            "fp": 867,
+            "fn": 715,
+            "gt_pixels": 751756
+          },
+          "balsa": {
+            "iou": 0.9907246172878593,
+            "precision": 0.995786483747024,
+            "recall": 0.9948953157014673,
+            "f1": 0.9953407002497526,
+            "tp": 168977,
+            "fp": 715,
+            "fn": 867,
+            "gt_pixels": 169844
+          }
+        },
+        "confusion_matrix": [
+          [
+            751041,
+            715
+          ],
+          [
+            867,
+            168977
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0033",
+      "ground_truth_instances": 1,
+      "seconds": 0.09472609998192638,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9943616362364944,
+        "balsa_iou": 0.9907759508209404,
+        "balsa_f1": 0.9953666060837957,
+        "balsa_precision": 0.996737191230528,
+        "balsa_recall": 0.9939997850669278,
+        "pixel_accuracy": 0.9983181423611112,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9979473216520485,
+            "precision": 0.9986681085551165,
+            "recall": 0.9992772899300629,
+            "f1": 0.9989726063716964,
+            "tp": 753561,
+            "fp": 1005,
+            "fn": 545,
+            "gt_pixels": 754106
+          },
+          "balsa": {
+            "iou": 0.9907759508209404,
+            "precision": 0.996737191230528,
+            "recall": 0.9939997850669278,
+            "f1": 0.9953666060837957,
+            "tp": 166489,
+            "fp": 545,
+            "fn": 1005,
+            "gt_pixels": 167494
+          }
+        },
+        "confusion_matrix": [
+          [
+            753561,
+            545
+          ],
+          [
+            1005,
+            166489
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0036",
+      "ground_truth_instances": 1,
+      "seconds": 0.09607359999790788,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9942478386914029,
+        "balsa_iou": 0.9907615659145774,
+        "balsa_f1": 0.9953593467728123,
+        "balsa_precision": 0.9964217768339085,
+        "balsa_recall": 0.9942991799207515,
+        "pixel_accuracy": 0.9981770833333333,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9977341114682283,
+            "precision": 0.9986055314369641,
+            "recall": 0.9991261456676004,
+            "f1": 0.9988657707155502,
+            "tp": 739751,
+            "fp": 1033,
+            "fn": 647,
+            "gt_pixels": 740398
+          },
+          "balsa": {
+            "iou": 0.9907615659145774,
+            "precision": 0.9964217768339085,
+            "recall": 0.9942991799207515,
+            "f1": 0.9953593467728123,
+            "tp": 180169,
+            "fp": 647,
+            "fn": 1033,
+            "gt_pixels": 181202
+          }
+        },
+        "confusion_matrix": [
+          [
+            739751,
+            647
+          ],
+          [
+            1033,
+            180169
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0041",
+      "ground_truth_instances": 1,
+      "seconds": 0.09939990000566468,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9944762770367451,
+        "balsa_iou": 0.9911460492722631,
+        "balsa_f1": 0.9955533393791114,
+        "balsa_precision": 0.9968561050818071,
+        "balsa_recall": 0.9942539743344186,
+        "pixel_accuracy": 0.9982389322916667,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9978065048012271,
+            "precision": 0.9985798182708409,
+            "recall": 0.9992244862051931,
+            "f1": 0.9989020482246397,
+            "tp": 738292,
+            "fp": 1050,
+            "fn": 573,
+            "gt_pixels": 738865
+          },
+          "balsa": {
+            "iou": 0.9911460492722631,
+            "precision": 0.9968561050818071,
+            "recall": 0.9942539743344186,
+            "f1": 0.9955533393791114,
+            "tp": 181685,
+            "fp": 573,
+            "fn": 1050,
+            "gt_pixels": 182735
+          }
+        },
+        "confusion_matrix": [
+          [
+            738292,
+            573
+          ],
+          [
+            1050,
+            181685
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0042",
+      "ground_truth_instances": 1,
+      "seconds": 0.09392000001389533,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9944653597643746,
+        "balsa_iou": 0.9909739135538015,
+        "balsa_f1": 0.9954664968813743,
+        "balsa_precision": 0.9960889570552147,
+        "balsa_recall": 0.9948448141776448,
+        "pixel_accuracy": 0.9983311631944445,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9979568059749476,
+            "precision": 0.9988365599404319,
+            "recall": 0.9991181962791341,
+            "f1": 0.9989773582597271,
+            "tp": 751205,
+            "fp": 875,
+            "fn": 663,
+            "gt_pixels": 751868
+          },
+          "balsa": {
+            "iou": 0.9909739135538015,
+            "precision": 0.9960889570552147,
+            "recall": 0.9948448141776448,
+            "f1": 0.9954664968813743,
+            "tp": 168857,
+            "fp": 663,
+            "fn": 875,
+            "gt_pixels": 169732
+          }
+        },
+        "confusion_matrix": [
+          [
+            751205,
+            663
+          ],
+          [
+            875,
+            168857
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0048",
+      "ground_truth_instances": 1,
+      "seconds": 0.10220150003442541,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9936414093265803,
+        "balsa_iou": 0.9887237461264777,
+        "balsa_f1": 0.9943299043441878,
+        "balsa_precision": 0.9952249381456202,
+        "balsa_recall": 0.9934364789544493,
+        "pixel_accuracy": 0.998720703125,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9985590725266829,
+            "precision": 0.9991647579204307,
+            "recall": 0.9993933018567899,
+            "f1": 0.9992790168211063,
+            "tp": 817044,
+            "fp": 683,
+            "fn": 496,
+            "gt_pixels": 817540
+          },
+          "balsa": {
+            "iou": 0.9887237461264777,
+            "precision": 0.9952249381456202,
+            "recall": 0.9934364789544493,
+            "f1": 0.9943299043441878,
+            "tp": 103377,
+            "fp": 496,
+            "fn": 683,
+            "gt_pixels": 104060
+          }
+        },
+        "confusion_matrix": [
+          [
+            817044,
+            496
+          ],
+          [
+            683,
+            103377
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0053",
+      "ground_truth_instances": 1,
+      "seconds": 0.09376690001226962,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9937572050966672,
+        "balsa_iou": 0.9889931927975406,
+        "balsa_f1": 0.9944661413410982,
+        "balsa_precision": 0.9947910435398817,
+        "balsa_recall": 0.9941414513013888,
+        "pixel_accuracy": 0.9986946614583333,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9985212173957938,
+            "precision": 0.999216425300237,
+            "recall": 0.9993037016989187,
+            "f1": 0.9992600615938753,
+            "tp": 812304,
+            "fp": 637,
+            "fn": 566,
+            "gt_pixels": 812870
+          },
+          "balsa": {
+            "iou": 0.9889931927975406,
+            "precision": 0.9947910435398817,
+            "recall": 0.9941414513013888,
+            "f1": 0.9944661413410982,
+            "tp": 108093,
+            "fp": 566,
+            "fn": 637,
+            "gt_pixels": 108730
+          }
+        },
+        "confusion_matrix": [
+          [
+            812304,
+            566
+          ],
+          [
+            637,
+            108093
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0054",
+      "ground_truth_instances": 1,
+      "seconds": 0.09247340000001714,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9942820456032444,
+        "balsa_iou": 0.9900019823655655,
+        "balsa_f1": 0.99497587554031,
+        "balsa_precision": 0.9936331629166342,
+        "balsa_recall": 0.9963222219330887,
+        "pixel_accuracy": 0.9987413194444444,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9985621088409233,
+            "precision": 0.9994739460621017,
+            "recall": 0.9990872031084703,
+            "f1": 0.9992805371658374,
+            "tp": 805577,
+            "fp": 424,
+            "fn": 736,
+            "gt_pixels": 806313
+          },
+          "balsa": {
+            "iou": 0.9900019823655655,
+            "precision": 0.9936331629166342,
+            "recall": 0.9963222219330887,
+            "f1": 0.99497587554031,
+            "tp": 114863,
+            "fp": 736,
+            "fn": 424,
+            "gt_pixels": 115287
+          }
+        },
+        "confusion_matrix": [
+          [
+            805577,
+            736
+          ],
+          [
+            424,
+            114863
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0058",
+      "ground_truth_instances": 1,
+      "seconds": 0.09214449999853969,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9917148332271037,
+        "balsa_iou": 0.9851199643134048,
+        "balsa_f1": 0.9925042133704288,
+        "balsa_precision": 0.9887324243942479,
+        "balsa_recall": 0.9963048895763513,
+        "pixel_accuracy": 0.9984798177083334,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9983097021408026,
+            "precision": 0.9995844361680666,
+            "recall": 0.9987242065216342,
+            "f1": 0.9991541361895073,
+            "tp": 827447,
+            "fp": 344,
+            "fn": 1057,
+            "gt_pixels": 828504
+          },
+          "balsa": {
+            "iou": 0.9851199643134048,
+            "precision": 0.9887324243942479,
+            "recall": 0.9963048895763513,
+            "f1": 0.9925042133704288,
+            "tp": 92752,
+            "fp": 1057,
+            "fn": 344,
+            "gt_pixels": 93096
+          }
+        },
+        "confusion_matrix": [
+          [
+            827447,
+            1057
+          ],
+          [
+            344,
+            92752
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0069",
+      "ground_truth_instances": 2,
+      "seconds": 0.09599930001422763,
+      "predicted_instances": 2,
+      "semantic": {
+        "mean_iou": 0.9920063895689629,
+        "balsa_iou": 0.9873629523283257,
+        "balsa_f1": 0.9936412985575337,
+        "balsa_precision": 0.992529681408303,
+        "balsa_recall": 0.9947554084849999,
+        "pixel_accuracy": 0.9973448350694445,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9966498268096001,
+            "precision": 0.9986172289432639,
+            "recall": 0.9980271510086345,
+            "f1": 0.9983221027816614,
+            "tp": 727963,
+            "fp": 1008,
+            "fn": 1439,
+            "gt_pixels": 729402
+          },
+          "balsa": {
+            "iou": 0.9873629523283257,
+            "precision": 0.992529681408303,
+            "recall": 0.9947554084849999,
+            "f1": 0.9936412985575337,
+            "tp": 191190,
+            "fp": 1439,
+            "fn": 1008,
+            "gt_pixels": 192198
+          }
+        },
+        "confusion_matrix": [
+          [
+            727963,
+            1439
+          ],
+          [
+            1008,
+            191190
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0072",
+      "ground_truth_instances": 2,
+      "seconds": 0.10036290000425652,
+      "predicted_instances": 2,
+      "semantic": {
+        "mean_iou": 0.9902630707687181,
+        "balsa_iou": 0.9844777774224155,
+        "balsa_f1": 0.9921781827167921,
+        "balsa_precision": 0.9888527188229499,
+        "balsa_recall": 0.9955260888313928,
+        "pixel_accuracy": 0.9968402777777777,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9960483641150208,
+            "precision": 0.9988704839772028,
+            "recall": 0.9971715030974894,
+            "f1": 0.9980202704723885,
+            "tp": 733998,
+            "fp": 830,
+            "fn": 2082,
+            "gt_pixels": 736080
+          },
+          "balsa": {
+            "iou": 0.9844777774224155,
+            "precision": 0.9888527188229499,
+            "recall": 0.9955260888313928,
+            "f1": 0.9921781827167921,
+            "tp": 184690,
+            "fp": 2082,
+            "fn": 830,
+            "gt_pixels": 185520
+          }
+        },
+        "confusion_matrix": [
+          [
+            733998,
+            2082
+          ],
+          [
+            830,
+            184690
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0073",
+      "ground_truth_instances": 2,
+      "seconds": 0.0936245999764651,
+      "predicted_instances": 2,
+      "semantic": {
+        "mean_iou": 0.9923692729061045,
+        "balsa_iou": 0.9879671552451845,
+        "balsa_f1": 0.9939471611877152,
+        "balsa_precision": 0.9930373790925967,
+        "balsa_recall": 0.9948586118251928,
+        "pixel_accuracy": 0.9974479166666667,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9967713905670246,
+            "precision": 0.9986274863058066,
+            "recall": 0.9981388034733171,
+            "f1": 0.9983830850901472,
+            "tp": 726135,
+            "fp": 998,
+            "fn": 1354,
+            "gt_pixels": 727489
+          },
+          "balsa": {
+            "iou": 0.9879671552451845,
+            "precision": 0.9930373790925967,
+            "recall": 0.9948586118251928,
+            "f1": 0.9939471611877152,
+            "tp": 193113,
+            "fp": 1354,
+            "fn": 998,
+            "gt_pixels": 194111
+          }
+        },
+        "confusion_matrix": [
+          [
+            726135,
+            1354
+          ],
+          [
+            998,
+            193113
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0080",
+      "ground_truth_instances": 3,
+      "seconds": 0.09369349997723475,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9906206913969945,
+        "balsa_iou": 0.9854925840380248,
+        "balsa_f1": 0.9926932912877112,
+        "balsa_precision": 0.9927410127969695,
+        "balsa_recall": 0.9926455743662216,
+        "pixel_accuracy": 0.9967013888888889,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9957487987559642,
+            "precision": 0.9978558876204837,
+            "recall": 0.997883855922821,
+            "f1": 0.9978698715756784,
+            "tp": 712052,
+            "fp": 1530,
+            "fn": 1510,
+            "gt_pixels": 713562
+          },
+          "balsa": {
+            "iou": 0.9854925840380248,
+            "precision": 0.9927410127969695,
+            "recall": 0.9926455743662216,
+            "f1": 0.9926932912877112,
+            "tp": 206508,
+            "fp": 1510,
+            "fn": 1530,
+            "gt_pixels": 208038
+          }
+        },
+        "confusion_matrix": [
+          [
+            712052,
+            1510
+          ],
+          [
+            1530,
+            206508
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0084",
+      "ground_truth_instances": 3,
+      "seconds": 0.0933845000108704,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9764887690095783,
+        "balsa_iou": 0.959105063268355,
+        "balsa_f1": 0.9791257051505853,
+        "balsa_precision": 0.9802604952352919,
+        "balsa_recall": 0.9779935393877102,
+        "pixel_accuracy": 0.99201171875,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9938724747508016,
+            "precision": 0.998826908028795,
+            "recall": 0.9950339511546559,
+            "f1": 0.99692682188716,
+            "tp": 754383,
+            "fp": 886,
+            "fn": 3765,
+            "gt_pixels": 758148
+          },
+          "balsa": {
+            "iou": 0.959105063268355,
+            "precision": 0.9802604952352919,
+            "recall": 0.9779935393877102,
+            "f1": 0.9791257051505853,
+            "tp": 159855,
+            "fp": 3219,
+            "fn": 3597,
+            "gt_pixels": 163452
+          }
+        },
+        "confusion_matrix": [
+          [
+            754383,
+            3219
+          ],
+          [
+            886,
+            159855
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          546,
+          2711
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0092",
+      "ground_truth_instances": 3,
+      "seconds": 0.0943896000389941,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9911889459483867,
+        "balsa_iou": 0.9866408544845686,
+        "balsa_f1": 0.9932755105255814,
+        "balsa_precision": 0.9937899107440399,
+        "balsa_recall": 0.9927616425538041,
+        "pixel_accuracy": 0.9967578125,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9957370374122048,
+            "precision": 0.9976999236643403,
+            "recall": 0.9980280618665203,
+            "f1": 0.9978639657891388,
+            "tp": 697933,
+            "fp": 1609,
+            "fn": 1379,
+            "gt_pixels": 699312
+          },
+          "balsa": {
+            "iou": 0.9866408544845686,
+            "precision": 0.9937899107440399,
+            "recall": 0.9927616425538041,
+            "f1": 0.9932755105255814,
+            "tp": 220679,
+            "fp": 1379,
+            "fn": 1609,
+            "gt_pixels": 222288
+          }
+        },
+        "confusion_matrix": [
+          [
+            697933,
+            1379
+          ],
+          [
+            1609,
+            220679
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0095",
+      "ground_truth_instances": 3,
+      "seconds": 0.0932846000068821,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9847386344990057,
+        "balsa_iou": 0.9757397911636838,
+        "balsa_f1": 0.9877209494161034,
+        "balsa_precision": 0.9870301839802165,
+        "balsa_recall": 0.9884126823827986,
+        "pixel_accuracy": 0.9934103732638889,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9937374778343274,
+            "precision": 0.998673578906867,
+            "recall": 0.9950508106207241,
+            "f1": 0.9968589033233828,
+            "tp": 690417,
+            "fp": 917,
+            "fn": 3434,
+            "gt_pixels": 693851
+          },
+          "balsa": {
+            "iou": 0.9757397911636838,
+            "precision": 0.9870301839802165,
+            "recall": 0.9884126823827986,
+            "f1": 0.9877209494161034,
+            "tp": 225110,
+            "fp": 2958,
+            "fn": 2639,
+            "gt_pixels": 227749
+          }
+        },
+        "confusion_matrix": [
+          [
+            690417,
+            2958
+          ],
+          [
+            917,
+            225110
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          476,
+          1722
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0108",
+      "ground_truth_instances": 3,
+      "seconds": 0.09186320001026616,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9906838891012641,
+        "balsa_iou": 0.9866518777705358,
+        "balsa_f1": 0.9932810965127702,
+        "balsa_precision": 0.9924204666569543,
+        "balsa_recall": 0.9941432203454924,
+        "pixel_accuracy": 0.9962000868055556,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9947159004319925,
+            "precision": 0.9976920725339984,
+            "recall": 0.9970100632469171,
+            "f1": 0.9973509512974439,
+            "tp": 659241,
+            "fp": 1525,
+            "fn": 1977,
+            "gt_pixels": 661218
+          },
+          "balsa": {
+            "iou": 0.9866518777705358,
+            "precision": 0.9924204666569543,
+            "recall": 0.9941432203454924,
+            "f1": 0.9932810965127702,
+            "tp": 258857,
+            "fp": 1977,
+            "fn": 1525,
+            "gt_pixels": 260382
+          }
+        },
+        "confusion_matrix": [
+          [
+            659241,
+            1977
+          ],
+          [
+            1525,
+            258857
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0109",
+      "ground_truth_instances": 4,
+      "seconds": 0.09228399995481595,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9855588928341089,
+        "balsa_iou": 0.9807668104853153,
+        "balsa_f1": 0.9902900283804875,
+        "balsa_precision": 0.9945481974036854,
+        "balsa_recall": 0.9860681667018153,
+        "pixel_accuracy": 0.9935329861111111,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9903509751829025,
+            "precision": 0.9930293678867167,
+            "recall": 0.9972839244520163,
+            "f1": 0.9951520988321113,
+            "tp": 611719,
+            "fp": 4294,
+            "fn": 1666,
+            "gt_pixels": 613385
+          },
+          "balsa": {
+            "iou": 0.9807668104853153,
+            "precision": 0.9945481974036854,
+            "recall": 0.9860681667018153,
+            "f1": 0.9902900283804875,
+            "tp": 303921,
+            "fp": 1666,
+            "fn": 4294,
+            "gt_pixels": 308215
+          }
+        },
+        "confusion_matrix": [
+          [
+            611719,
+            1666
+          ],
+          [
+            4294,
+            303921
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0113",
+      "ground_truth_instances": 4,
+      "seconds": 0.09269200003473088,
+      "predicted_instances": 2,
+      "semantic": {
+        "mean_iou": 0.8167494085337064,
+        "balsa_iou": 0.6411829738073287,
+        "balsa_f1": 0.7813668360449396,
+        "balsa_precision": 0.9893165546183768,
+        "balsa_recall": 0.6456534886498022,
+        "pixel_accuracy": 0.8962196180555555,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9923158432600842,
+            "precision": 0.997814446177327,
+            "recall": 0.9944773497321001,
+            "f1": 0.9961431031300026,
+            "tp": 658345,
+            "fp": 1442,
+            "fn": 3656,
+            "gt_pixels": 662001
+          },
+          "balsa": {
+            "iou": 0.6411829738073287,
+            "precision": 0.9893165546183768,
+            "recall": 0.6456534886498022,
+            "f1": 0.7813668360449396,
+            "tp": 167611,
+            "fp": 1810,
+            "fn": 91988,
+            "gt_pixels": 259599
+          }
+        },
+        "confusion_matrix": [
+          [
+            658345,
+            1810
+          ],
+          [
+            1442,
+            167611
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          1846,
+          90546
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0126",
+      "ground_truth_instances": 3,
+      "seconds": 0.0925083999754861,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9899198617589905,
+        "balsa_iou": 0.9844502018778899,
+        "balsa_f1": 0.9921641782155101,
+        "balsa_precision": 0.9940754108065271,
+        "balsa_recall": 0.9902602806827315,
+        "pixel_accuracy": 0.9964312065972222,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9953895216400911,
+            "precision": 0.9971241367495444,
+            "recall": 0.9982553734077295,
+            "f1": 0.9976894344137283,
+            "tp": 710086,
+            "fp": 2048,
+            "fn": 1241,
+            "gt_pixels": 711327
+          },
+          "balsa": {
+            "iou": 0.9844502018778899,
+            "precision": 0.9940754108065271,
+            "recall": 0.9902602806827315,
+            "f1": 0.9921641782155101,
+            "tp": 208225,
+            "fp": 1241,
+            "fn": 2048,
+            "gt_pixels": 210273
+          }
+        },
+        "confusion_matrix": [
+          [
+            710086,
+            1241
+          ],
+          [
+            2048,
+            208225
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0127",
+      "ground_truth_instances": 3,
+      "seconds": 0.09790829999838024,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9879645369597634,
+        "balsa_iou": 0.9812140719741712,
+        "balsa_f1": 0.9905179716358921,
+        "balsa_precision": 0.9876205007282058,
+        "balsa_recall": 0.9934324937090465,
+        "pixel_accuracy": 0.9958582899305556,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9947150019453556,
+            "precision": 0.9981687679059208,
+            "recall": 0.9965335719190196,
+            "f1": 0.9973504996706346,
+            "tp": 718416,
+            "fp": 1318,
+            "fn": 2499,
+            "gt_pixels": 720915
+          },
+          "balsa": {
+            "iou": 0.9812140719741712,
+            "precision": 0.9876205007282058,
+            "recall": 0.9934324937090465,
+            "f1": 0.9905179716358921,
+            "tp": 199367,
+            "fp": 2499,
+            "fn": 1318,
+            "gt_pixels": 200685
+          }
+        },
+        "confusion_matrix": [
+          [
+            718416,
+            2499
+          ],
+          [
+            1318,
+            199367
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0128",
+      "ground_truth_instances": 3,
+      "seconds": 0.09426759998314083,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9496047398499152,
+        "balsa_iou": 0.9034944152525339,
+        "balsa_f1": 0.9493008311586442,
+        "balsa_precision": 0.9904062850164301,
+        "balsa_recall": 0.9114714589452584,
+        "pixel_accuracy": 0.9813563368055556,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9957150644472966,
+            "precision": 0.998244259101392,
+            "recall": 0.9974619119906968,
+            "f1": 0.9978529322000733,
+            "tp": 747088,
+            "fp": 1314,
+            "fn": 1901,
+            "gt_pixels": 748989
+          },
+          "balsa": {
+            "iou": 0.9034944152525339,
+            "precision": 0.9904062850164301,
+            "recall": 0.9114714589452584,
+            "f1": 0.9493008311586442,
+            "tp": 157330,
+            "fp": 1524,
+            "fn": 15281,
+            "gt_pixels": 172611
+          }
+        },
+        "confusion_matrix": [
+          [
+            747088,
+            1524
+          ],
+          [
+            1314,
+            157330
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          377,
+          13967
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0145",
+      "ground_truth_instances": 4,
+      "seconds": 0.09361540002282709,
+      "predicted_instances": 4,
+      "semantic": {
+        "mean_iou": 0.9886641564592223,
+        "balsa_iou": 0.9844972357956777,
+        "balsa_f1": 0.9921880646016085,
+        "balsa_precision": 0.9930013811250831,
+        "balsa_recall": 0.9913760792795518,
+        "pixel_accuracy": 0.9950737847222222,
+        "per_class": {
+          "mesa": {
+            "iou": 0.992831077122767,
+            "precision": 0.996026974750379,
+            "recall": 0.9967785966920373,
+            "f1": 0.9964026439774397,
+            "tp": 628749,
+            "fp": 2508,
+            "fn": 2032,
+            "gt_pixels": 630781
+          },
+          "balsa": {
+            "iou": 0.9844972357956777,
+            "precision": 0.9930013811250831,
+            "recall": 0.9913760792795518,
+            "f1": 0.9921880646016085,
+            "tp": 288311,
+            "fp": 2032,
+            "fn": 2508,
+            "gt_pixels": 290819
+          }
+        },
+        "confusion_matrix": [
+          [
+            628749,
+            2032
+          ],
+          [
+            2508,
+            288311
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0162",
+      "ground_truth_instances": 2,
+      "seconds": 0.09571730002062395,
+      "predicted_instances": 2,
+      "semantic": {
+        "mean_iou": 0.992362418186616,
+        "balsa_iou": 0.9875499727820279,
+        "balsa_f1": 0.993735992861329,
+        "balsa_precision": 0.9907743985154475,
+        "balsa_recall": 0.996715345715771,
+        "pixel_accuracy": 0.9976920572916667,
+        "per_class": {
+          "mesa": {
+            "iou": 0.997174863591204,
+            "precision": 0.9992599622261295,
+            "recall": 0.997911815059389,
+            "f1": 0.9985854336241164,
+            "tp": 750757,
+            "fp": 556,
+            "fn": 1571,
+            "gt_pixels": 752328
+          },
+          "balsa": {
+            "iou": 0.9875499727820279,
+            "precision": 0.9907743985154475,
+            "recall": 0.996715345715771,
+            "f1": 0.993735992861329,
+            "tp": 168716,
+            "fp": 1571,
+            "fn": 556,
+            "gt_pixels": 169272
+          }
+        },
+        "confusion_matrix": [
+          [
+            750757,
+            1571
+          ],
+          [
+            556,
+            168716
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0163",
+      "ground_truth_instances": 2,
+      "seconds": 0.09128749999217689,
+      "predicted_instances": 2,
+      "semantic": {
+        "mean_iou": 0.9905994524235726,
+        "balsa_iou": 0.984632883496641,
+        "balsa_f1": 0.9922569475538043,
+        "balsa_precision": 0.989521813678796,
+        "balsa_recall": 0.9950072436872164,
+        "pixel_accuracy": 0.9971853298611111,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9965660213505041,
+            "precision": 0.9988933590930321,
+            "recall": 0.9976675086606994,
+            "f1": 0.9982800575524304,
+            "tp": 752798,
+            "fp": 834,
+            "fn": 1760,
+            "gt_pixels": 754558
+          },
+          "balsa": {
+            "iou": 0.984632883496641,
+            "precision": 0.989521813678796,
+            "recall": 0.9950072436872164,
+            "f1": 0.9922569475538043,
+            "tp": 166208,
+            "fp": 1760,
+            "fn": 834,
+            "gt_pixels": 167042
+          }
+        },
+        "confusion_matrix": [
+          [
+            752798,
+            1760
+          ],
+          [
+            834,
+            166208
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0169",
+      "ground_truth_instances": 2,
+      "seconds": 0.09136349998880178,
+      "predicted_instances": 2,
+      "semantic": {
+        "mean_iou": 0.9916528317584713,
+        "balsa_iou": 0.9870566368442848,
+        "balsa_f1": 0.9934861629428585,
+        "balsa_precision": 0.9951163151967066,
+        "balsa_recall": 0.9918613428300462,
+        "pixel_accuracy": 0.9970833333333333,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9962490266726578,
+            "precision": 0.9976495511509095,
+            "recall": 0.9985928731683573,
+            "f1": 0.9981209892767766,
+            "tp": 713926,
+            "fp": 1682,
+            "fn": 1006,
+            "gt_pixels": 714932
+          },
+          "balsa": {
+            "iou": 0.9870566368442848,
+            "precision": 0.9951163151967066,
+            "recall": 0.9918613428300462,
+            "f1": 0.9934861629428585,
+            "tp": 204986,
+            "fp": 1006,
+            "fn": 1682,
+            "gt_pixels": 206668
+          }
+        },
+        "confusion_matrix": [
+          [
+            713926,
+            1006
+          ],
+          [
+            1682,
+            204986
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0171",
+      "ground_truth_instances": 3,
+      "seconds": 0.09293159999651834,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.990267417653747,
+        "balsa_iou": 0.9844562923827779,
+        "balsa_f1": 0.9921672713695505,
+        "balsa_precision": 0.9930727443089805,
+        "balsa_recall": 0.9912634481267233,
+        "pixel_accuracy": 0.9968587239583333,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9960785429247162,
+            "precision": 0.9978072288175726,
+            "recall": 0.9982637144835264,
+            "f1": 0.9980354194532155,
+            "tp": 735351,
+            "fp": 1616,
+            "fn": 1279,
+            "gt_pixels": 736630
+          },
+          "balsa": {
+            "iou": 0.9844562923827779,
+            "precision": 0.9930727443089805,
+            "recall": 0.9912634481267233,
+            "f1": 0.9921672713695505,
+            "tp": 183354,
+            "fp": 1279,
+            "fn": 1616,
+            "gt_pixels": 184970
+          }
+        },
+        "confusion_matrix": [
+          [
+            735351,
+            1279
+          ],
+          [
+            1616,
+            183354
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0173",
+      "ground_truth_instances": 3,
+      "seconds": 0.0918695000000298,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9890741449571255,
+        "balsa_iou": 0.9832214452648534,
+        "balsa_f1": 0.9915397472253,
+        "balsa_precision": 0.9894076034761425,
+        "balsa_recall": 0.9936811002319597,
+        "pixel_accuracy": 0.9960894097222223,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9949268446493976,
+            "precision": 0.9981034957529884,
+            "recall": 0.9968112847518485,
+            "f1": 0.9974569717359767,
+            "tp": 706802,
+            "fp": 1343,
+            "fn": 2261,
+            "gt_pixels": 709063
+          },
+          "balsa": {
+            "iou": 0.9832214452648534,
+            "precision": 0.9894076034761425,
+            "recall": 0.9936811002319597,
+            "f1": 0.9915397472253,
+            "tp": 211194,
+            "fp": 2261,
+            "fn": 1343,
+            "gt_pixels": 212537
+          }
+        },
+        "confusion_matrix": [
+          [
+            706802,
+            2261
+          ],
+          [
+            1343,
+            211194
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0174",
+      "ground_truth_instances": 3,
+      "seconds": 0.09279030002653599,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9884519193176278,
+        "balsa_iou": 0.9821700245979724,
+        "balsa_f1": 0.9910048203833353,
+        "balsa_precision": 0.9881694895857176,
+        "balsa_recall": 0.9938564686924494,
+        "pixel_accuracy": 0.99591796875,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9947338140372832,
+            "precision": 0.9982005596385949,
+            "recall": 0.9965207660204631,
+            "f1": 0.9973599555360932,
+            "tp": 710607,
+            "fp": 1281,
+            "fn": 2481,
+            "gt_pixels": 713088
+          },
+          "balsa": {
+            "iou": 0.9821700245979724,
+            "precision": 0.9881694895857176,
+            "recall": 0.9938564686924494,
+            "f1": 0.9910048203833353,
+            "tp": 207231,
+            "fp": 2481,
+            "fn": 1281,
+            "gt_pixels": 208512
+          }
+        },
+        "confusion_matrix": [
+          [
+            710607,
+            2481
+          ],
+          [
+            1281,
+            207231
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0178",
+      "ground_truth_instances": 3,
+      "seconds": 0.09860590001335368,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9904018217731037,
+        "balsa_iou": 0.9845513633920507,
+        "balsa_f1": 0.9922155521429569,
+        "balsa_precision": 0.9947151854443667,
+        "balsa_recall": 0.989728450076591,
+        "pixel_accuracy": 0.9969748263888889,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9962522801541566,
+            "precision": 0.9975180860728826,
+            "recall": 0.9987278913856417,
+            "f1": 0.9981226221339349,
+            "tp": 741131,
+            "fp": 1844,
+            "fn": 944,
+            "gt_pixels": 742075
+          },
+          "balsa": {
+            "iou": 0.9845513633920507,
+            "precision": 0.9947151854443667,
+            "recall": 0.989728450076591,
+            "f1": 0.9922155521429569,
+            "tp": 177681,
+            "fp": 944,
+            "fn": 1844,
+            "gt_pixels": 179525
+          }
+        },
+        "confusion_matrix": [
+          [
+            741131,
+            944
+          ],
+          [
+            1844,
+            177681
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0182",
+      "ground_truth_instances": 4,
+      "seconds": 0.09468069998547435,
+      "predicted_instances": 4,
+      "semantic": {
+        "mean_iou": 0.9770572901036016,
+        "balsa_iou": 0.9659658284091429,
+        "balsa_f1": 0.9826883198583378,
+        "balsa_precision": 0.991434872548852,
+        "balsa_recall": 0.9740947437819406,
+        "pixel_accuracy": 0.9911317274305556,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9881487517980604,
+            "precision": 0.991028579406307,
+            "recall": 0.9970678734620602,
+            "f1": 0.9940390535712071,
+            "tp": 681459,
+            "fp": 6169,
+            "fn": 2004,
+            "gt_pixels": 683463
+          },
+          "balsa": {
+            "iou": 0.9659658284091429,
+            "precision": 0.991434872548852,
+            "recall": 0.9740947437819406,
+            "f1": 0.9826883198583378,
+            "tp": 231968,
+            "fp": 2004,
+            "fn": 6169,
+            "gt_pixels": 238137
+          }
+        },
+        "confusion_matrix": [
+          [
+            681459,
+            2004
+          ],
+          [
+            6169,
+            231968
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0183",
+      "ground_truth_instances": 4,
+      "seconds": 0.094593099958729,
+      "predicted_instances": 4,
+      "semantic": {
+        "mean_iou": 0.9724466138890755,
+        "balsa_iou": 0.9588865585305211,
+        "balsa_f1": 0.9790118313434544,
+        "balsa_precision": 0.9898772524095544,
+        "balsa_recall": 0.9683823498012153,
+        "pixel_accuracy": 0.9894498697916667,
+        "per_class": {
+          "mesa": {
+            "iou": 0.98600666924763,
+            "precision": 0.9893084885171665,
+            "recall": 0.9966265508919493,
+            "f1": 0.9929540363740716,
+            "tp": 685108,
+            "fp": 7404,
+            "fn": 2319,
+            "gt_pixels": 687427
+          },
+          "balsa": {
+            "iou": 0.9588865585305211,
+            "precision": 0.9898772524095544,
+            "recall": 0.9683823498012153,
+            "f1": 0.9790118313434544,
+            "tp": 226769,
+            "fp": 2319,
+            "fn": 7404,
+            "gt_pixels": 234173
+          }
+        },
+        "confusion_matrix": [
+          [
+            685108,
+            2319
+          ],
+          [
+            7404,
+            226769
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0185",
+      "ground_truth_instances": 4,
+      "seconds": 0.09361179999541491,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9837273901851398,
+        "balsa_iou": 0.9761795601885366,
+        "balsa_f1": 0.9879462168866928,
+        "balsa_precision": 0.9838357308170901,
+        "balsa_recall": 0.9920911944544355,
+        "pixel_accuracy": 0.9935731336805556,
+        "per_class": {
+          "mesa": {
+            "iou": 0.991275220181743,
+            "precision": 0.9971328363583021,
+            "recall": 0.9941087488329768,
+            "f1": 0.9956184962631832,
+            "tp": 672948,
+            "fp": 1935,
+            "fn": 3988,
+            "gt_pixels": 676936
+          },
+          "balsa": {
+            "iou": 0.9761795601885366,
+            "precision": 0.9838357308170901,
+            "recall": 0.9920911944544355,
+            "f1": 0.9879462168866928,
+            "tp": 242729,
+            "fp": 3988,
+            "fn": 1935,
+            "gt_pixels": 244664
+          }
+        },
+        "confusion_matrix": [
+          [
+            672948,
+            3988
+          ],
+          [
+            1935,
+            242729
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0186",
+      "ground_truth_instances": 3,
+      "seconds": 0.09122390003176406,
+      "predicted_instances": 2,
+      "semantic": {
+        "mean_iou": 0.9888726936548835,
+        "balsa_iou": 0.982228162270673,
+        "balsa_f1": 0.991034413662568,
+        "balsa_precision": 0.9911283465036045,
+        "balsa_recall": 0.9909404986245587,
+        "pixel_accuracy": 0.9964073350694445,
+        "per_class": {
+          "mesa": {
+            "iou": 0.995517225039094,
+            "precision": 0.9977298847845291,
+            "recall": 0.9977772711729169,
+            "f1": 0.9977535774160916,
+            "tp": 735294,
+            "fp": 1673,
+            "fn": 1638,
+            "gt_pixels": 736932
+          },
+          "balsa": {
+            "iou": 0.982228162270673,
+            "precision": 0.9911283465036045,
+            "recall": 0.9909404986245587,
+            "f1": 0.991034413662568,
+            "tp": 182995,
+            "fp": 1638,
+            "fn": 1673,
+            "gt_pixels": 184668
+          }
+        },
+        "confusion_matrix": [
+          [
+            735294,
+            1638
+          ],
+          [
+            1673,
+            182995
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0210",
+      "ground_truth_instances": 1,
+      "seconds": 0.09077690000412986,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9930502513661972,
+        "balsa_iou": 0.9881131383858106,
+        "balsa_f1": 0.9940210336199273,
+        "balsa_precision": 0.9965596330275229,
+        "balsa_recall": 0.9914953348195855,
+        "pixel_accuracy": 0.9982758246527778,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9979873643465837,
+            "precision": 0.9985641069835347,
+            "recall": 0.9994215979877699,
+            "f1": 0.9989926684776235,
+            "tp": 787923,
+            "fp": 1133,
+            "fn": 456,
+            "gt_pixels": 788379
+          },
+          "balsa": {
+            "iou": 0.9881131383858106,
+            "precision": 0.9965596330275229,
+            "recall": 0.9914953348195855,
+            "f1": 0.9940210336199273,
+            "tp": 132088,
+            "fp": 456,
+            "fn": 1133,
+            "gt_pixels": 133221
+          }
+        },
+        "confusion_matrix": [
+          [
+            787923,
+            456
+          ],
+          [
+            1133,
+            132088
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0212",
+      "ground_truth_instances": 1,
+      "seconds": 0.09067880001384765,
+      "predicted_instances": 1,
+      "semantic": {
+        "mean_iou": 0.9922020371262115,
+        "balsa_iou": 0.9862979482604817,
+        "balsa_f1": 0.9931017137929795,
+        "balsa_precision": 0.9913564306721182,
+        "balsa_recall": 0.9948531528937518,
+        "pixel_accuracy": 0.9983333333333333,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9981061259919412,
+            "precision": 0.9992938899258338,
+            "recall": 0.9988105579026335,
+            "f1": 0.9990521654563675,
+            "tp": 809500,
+            "fp": 572,
+            "fn": 964,
+            "gt_pixels": 810464
+          },
+          "balsa": {
+            "iou": 0.9862979482604817,
+            "precision": 0.9913564306721182,
+            "recall": 0.9948531528937518,
+            "f1": 0.9931017137929795,
+            "tp": 110564,
+            "fp": 964,
+            "fn": 572,
+            "gt_pixels": 111136
+          }
+        },
+        "confusion_matrix": [
+          [
+            809500,
+            964
+          ],
+          [
+            572,
+            110564
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0224",
+      "ground_truth_instances": 3,
+      "seconds": 0.09193440002854913,
+      "predicted_instances": 3,
+      "semantic": {
+        "mean_iou": 0.9848295633985936,
+        "balsa_iou": 0.9740711556474034,
+        "balsa_f1": 0.9868652939492988,
+        "balsa_precision": 0.9857887649240538,
+        "balsa_recall": 0.987944176788582,
+        "pixel_accuracy": 0.9962152777777777,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9955879711497838,
+            "precision": 0.9979725540366969,
+            "recall": 0.9976057300241962,
+            "f1": 0.9977891083159446,
+            "tp": 787078,
+            "fp": 1599,
+            "fn": 1889,
+            "gt_pixels": 788967
+          },
+          "balsa": {
+            "iou": 0.9740711556474034,
+            "precision": 0.9857887649240538,
+            "recall": 0.987944176788582,
+            "f1": 0.9868652939492988,
+            "tp": 131034,
+            "fp": 1889,
+            "fn": 1599,
+            "gt_pixels": 132633
+          }
+        },
+        "confusion_matrix": [
+          [
+            787078,
+            1889
+          ],
+          [
+            1599,
+            131034
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "balsa_0228",
+      "ground_truth_instances": 4,
+      "seconds": 0.09220010001445189,
+      "predicted_instances": 4,
+      "semantic": {
+        "mean_iou": 0.9881875353081634,
+        "balsa_iou": 0.9828827274723206,
+        "balsa_f1": 0.991367481147259,
+        "balsa_precision": 0.9909442703042425,
+        "balsa_recall": 0.9917910536331016,
+        "pixel_accuracy": 0.9952625868055556,
+        "per_class": {
+          "mesa": {
+            "iou": 0.9934923431440061,
+            "precision": 0.9968965512084007,
+            "recall": 0.9965746000086719,
+            "f1": 0.996735549610524,
+            "tp": 666536,
+            "fp": 2075,
+            "fn": 2291,
+            "gt_pixels": 668827
+          },
+          "balsa": {
+            "iou": 0.9828827274723206,
+            "precision": 0.9909442703042425,
+            "recall": 0.9917910536331016,
+            "f1": 0.991367481147259,
+            "tp": 250698,
+            "fp": 2291,
+            "fn": 2075,
+            "gt_pixels": 252773
+          }
+        },
+        "confusion_matrix": [
+          [
+            666536,
+            2291
+          ],
+          [
+            2075,
+            250698
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 921600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000034",
+      "ground_truth_instances": 0,
+      "seconds": 0.10404029994970188,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 272000,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 272000
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            272000,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 272000,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000064",
+      "ground_truth_instances": 0,
+      "seconds": 0.10852750000776723,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307200,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307200
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307200,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307200,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000071",
+      "ground_truth_instances": 0,
+      "seconds": 0.10541989997727796,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 272640,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 272640
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            272640,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 272640,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000073",
+      "ground_truth_instances": 0,
+      "seconds": 0.15653069998370484,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 361600,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 361600
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            361600,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 361600,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000110",
+      "ground_truth_instances": 0,
+      "seconds": 0.12194529996486381,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307200,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307200
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307200,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307200,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000127",
+      "ground_truth_instances": 0,
+      "seconds": 0.13252769998507574,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307840,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307840
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307840,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307840,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000133",
+      "ground_truth_instances": 0,
+      "seconds": 0.1226772999507375,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307200,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307200
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307200,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307200,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000192",
+      "ground_truth_instances": 0,
+      "seconds": 0.12369829998351634,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307200,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307200
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307200,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307200,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000321",
+      "ground_truth_instances": 0,
+      "seconds": 0.12285899999551475,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307200,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307200
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307200,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307200,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000357",
+      "ground_truth_instances": 0,
+      "seconds": 0.07741480000549927,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 139520,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 139520
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            139520,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 139520,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000359",
+      "ground_truth_instances": 0,
+      "seconds": 0.1129046999849379,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 166000,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 166000
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            166000,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 166000,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000370",
+      "ground_truth_instances": 0,
+      "seconds": 0.12454789999173954,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307200,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307200
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307200,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307200,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000370_head",
+      "ground_truth_instances": 0,
+      "seconds": 0.13151390000712126,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 143880,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 143880
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            143880,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 143880,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000384",
+      "ground_truth_instances": 0,
+      "seconds": 0.1291701999725774,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 285440,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 285440
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            285440,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 285440,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000389",
+      "ground_truth_instances": 0,
+      "seconds": 0.12371440004790202,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307200,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307200
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307200,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307200,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000389_head",
+      "ground_truth_instances": 0,
+      "seconds": 0.09574359998805448,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 115874,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 115874
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            115874,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 115874,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000415",
+      "ground_truth_instances": 0,
+      "seconds": 0.10108940000645816,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 229760,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 229760
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            229760,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 229760,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000419",
+      "ground_truth_instances": 0,
+      "seconds": 0.12324169999919832,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307200,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307200
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307200,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307200,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000431",
+      "ground_truth_instances": 0,
+      "seconds": 0.10974279994843528,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 248960,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 248960
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            248960,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 248960,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000459",
+      "ground_truth_instances": 0,
+      "seconds": 0.13691749999998137,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 330240,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 330240
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            330240,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 330240,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000459_head",
+      "ground_truth_instances": 0,
+      "seconds": 0.12202529999194667,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 182664,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 182664
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            182664,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 182664,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000486",
+      "ground_truth_instances": 0,
+      "seconds": 0.1104969999869354,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 273280,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 273280
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            273280,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 273280,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000508",
+      "ground_truth_instances": 0,
+      "seconds": 0.12140300002647564,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307200,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307200
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307200,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307200,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000520",
+      "ground_truth_instances": 0,
+      "seconds": 0.12224689999129623,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307200,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307200
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307200,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307200,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000569",
+      "ground_truth_instances": 0,
+      "seconds": 0.12203309999313205,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307200,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307200
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307200,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307200,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000612",
+      "ground_truth_instances": 0,
+      "seconds": 0.12356760003603995,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 307200,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 307200
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            307200,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 307200,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    },
+    {
+      "id": "coco128_000000000650",
+      "ground_truth_instances": 0,
+      "seconds": 0.11103190004359931,
+      "predicted_instances": 0,
+      "semantic": {
+        "mean_iou": 1.0,
+        "balsa_iou": null,
+        "balsa_f1": null,
+        "balsa_precision": null,
+        "balsa_recall": null,
+        "pixel_accuracy": 1.0,
+        "per_class": {
+          "mesa": {
+            "iou": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "tp": 273280,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 273280
+          },
+          "balsa": {
+            "iou": null,
+            "precision": null,
+            "recall": null,
+            "f1": null,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "gt_pixels": 0
+          }
+        },
+        "confusion_matrix": [
+          [
+            273280,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "confusion_rows": [
+          "mesa",
+          "balsa"
+        ],
+        "confusion_columns": [
+          "mesa",
+          "balsa"
+        ],
+        "unassigned_predictions_by_true_class": [
+          0,
+          0
+        ],
+        "valid_gt_pixels": 273280,
+        "ignored_gt_pixels": 0,
+        "image_count": 1,
+        "definition": "confusión acumulada del conjunto evaluado; mIoU de mesa y balsa; clases con unión cero indefinidas y excluidas"
+      }
+    }
+  ],
+  "checkpoint_sha256": "d1665515765ed829f87e53f36f85a83a7fb8098f3d2f1cc13333125edab25da8",
+  "training_selection": {
+    "best_epoch": 3,
+    "selected_val_loss": 3.3087788188096248,
+    "min_val_loss": 3.3087788188096248,
+    "best_val_mask_ap": 0.9217746702026856,
+    "selected_negative_image_fpr": 0.0,
+    "selection_metric": "mask_ap",
+    "selection_threshold": 0.5,
+    "selection_max_size": 384,
+    "validation_fingerprint": "01da6ff50897131a86d976a4d289bd06598111338a01f59f166ab9ff135dbbdd",
+    "source_checkpoint_sha256": "fcf22fa4b3444e8d12a8de1461f34798689198abfe2bf95878e2367f9714f87e",
+    "source_config_sha256": "0aca84aeae457e45d594146a945ceca4e3eaf1eb4433c30bb02d9367f866854c",
+    "checkpoint_selection": {
+      "metric": "mask_ap",
+      "direction": "max",
+      "tie_breaker": "lower_negative_image_fpr",
+      "best_score": 0.9217746702026856,
+      "best_epoch": 3,
+      "selected_negative_image_fpr": 0.0,
+      "selected_val_loss": 3.3087788188096248,
+      "split": "val",
+      "max_size": 384,
+      "threshold": 0.5,
+      "definition": "COCO masks AP .50:.05:.95, máximo 100 detecciones por imagen, incluye negativas"
+    },
+    "epochs_completed": 7,
+    "task": "panoptic",
+    "status": "trained",
+    "run_state": "stopped",
+    "stop_reason": "patience",
+    "manifest_sha256": "c1d741622a4cc248e9dea90b5f3a33562b67e5b60e684fc40097659dfda9240b"
+  },
+  "compared_to": "C:\\Users\\camil\\Documents\\Codex\\2026-11-12\\ve-x20\\outputs\\balsa_panoptica\\results\\v1_extended_test.json"
+}

@@ -1,0 +1,13 @@
+PROGRAMA DE SEGMENTACION DE MADERA BALSA
+
+1. Abra INICIAR_PROGRAMA.cmd con doble clic.
+2. En la pagina, pulse Prueba con fotografias o prepare las piezas y pulse Usar camara.
+3. Detener libera la camara. Ctrl+C en la consola cierra el programa.
+
+No requiere instalacion ni Internet en este equipo. Incluye Python y sus dependencias.
+app contiene el codigo, el modelo final V2 y los 67 ejemplos usados por el panel.
+runtime contiene los componentes necesarios para ejecutar Python y el modelo con GPU o CPU.
+Mantenga ambas carpetas junto al archivo INICIAR_PROGRAMA.cmd.
+
+Los documentos de la presentacion estan por separado en Documentos_Balsa, en el Escritorio.
+Las medidas son pixeles del contorno visible; los IDs se asignan por fotograma.
